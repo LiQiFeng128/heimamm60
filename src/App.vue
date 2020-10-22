@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <div id="app">
     <h1>111111</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "app",
+  name: "App",
 };
 </script>
 
-<style></style>
+<style lang="less">
+@import "./styles/base";
+</style>
